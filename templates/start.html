@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1><span style="color:#71790b"> BoardGameGeek's BGG Rating Prediction </span></h1><br>
+        
+        <form method="POST", action="{{url_for('index')}}">
+           <b> BoardGame Title :  <input type="text", name='a', placeholder="이름을 적어주세요"> <br><br>
+            Average Rating :  <input type="text", name='b', placeholder="점수를 적어주세요(0~10)"> <br><br>
+            Num Voters :  <input type="text", name='c', placeholder="평가한 유저 수를 적어주세요"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <a href="https://boardgamegeek.com/"><img src='static\BGG.png' border="0"></a>
+        <h3> CodeStates AI_O6_김영우 Project 3 </h3>
+
+    </center>
+
+    </body>
+</html>
